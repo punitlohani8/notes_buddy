@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/signup_signin/login_page.dart';
+import 'package:untitled/ui/splash_screen.dart';
 
 void main() {
   runApp( MyApp());
@@ -13,7 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: LoginPage(),
+      home: SplashScreen(),
+      theme: ThemeData(
+        useMaterial3: true
+      ),
       debugShowCheckedModeBanner: false,
     );
   }
