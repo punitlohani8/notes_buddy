@@ -1,4 +1,4 @@
-# untitled
+# Notes Buddy
 
 A new Flutter project.
 
