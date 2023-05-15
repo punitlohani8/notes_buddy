@@ -6,7 +6,7 @@ class MyColors {
   static const Color black = Colors.black;
   static const Color transparent = Colors.transparent;
   static const Color first = Color(0xffcfff47);
-  static const Color second= Color(0xffd4b4fe);
-  static const Color third = Color(0xffffdba1);
+  static const Color second= Color(0xffcfff47);
+  static const Color third = Color(0xffcfff47);
 
 }
